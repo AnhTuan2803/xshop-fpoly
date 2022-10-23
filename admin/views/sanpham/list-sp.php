@@ -5,11 +5,11 @@
     <select style="max-width: 100px; display: inline-block;" name="iddm" class="form-select" aria-label="Default select example">
       <option value="0" selected>Tất cả</option>
       <?php
-            foreach ($listdanhmuc as $danhmuc) {
-              extract($danhmuc);
-              echo '<option value="' . $id . '" >' . $name . '</option>';
-            }
-            ?>
+      foreach ($listdanhmuc as $danhmuc) {
+        extract($danhmuc);
+        echo '<option value="' . $id . '" >' . $name . '</option>';
+      }
+      ?>
 
     </select>
     <input type="submit" class="btn btn-dark" name="listgo" value="GO">
@@ -34,7 +34,7 @@
         $xoasp = "index.php?act=xoasp&id=" . $id;
         $hinhpath = "../client/upload/" . $img;
         if (is_file($hinhpath)) {
-          $hinh = "<img src='" . $hinhpath. "' height='80px'>";
+          $hinh = "<img src='" . $hinhpath . "' height='80px'>";
         } else {
           $hinh = "no photo";
         }
