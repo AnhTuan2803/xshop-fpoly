@@ -12,7 +12,7 @@
             ?>
 
     </select>
-    <input type="submit" class="btn btn-dark" name="listok" value="GO">
+    <input type="submit" class="btn btn-dark" name="listgo" value="GO">
   </form>
   <table class="table mt-4 mb-4">
     <thead class="table-success">

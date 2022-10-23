@@ -41,7 +41,7 @@ if (isset($_GET['act'])) {
             include "./controllers/sanpham/suasp.php";
             break;
         case 'updatesp':
-            include "./controllers/sanpham/update.php";
+            include "./controllers/sanpham/updatesp.php";
             break;
         case 'dskh':
             include "./controllers/taikhoan/dskh.php";

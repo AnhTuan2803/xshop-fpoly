@@ -1,5 +1,5 @@
 <?php 
-           if (isset($_POST['listok']) && ($_POST['listok'])) {
+           if (isset($_POST['listgo']) && ($_POST['listgo'])) {
             $kyw = $_POST['kyw'];
             $iddm = $_POST['iddm'];
         } else {
