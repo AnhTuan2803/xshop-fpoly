@@ -56,8 +56,8 @@ if (isset($_GET['act'])) {
             include "./controllers/donhang/sua_bill.php";
             break;
         case 'update_bill':
-                include "./controllers/donhang/update_bill.php";
-                break;
+            include "./controllers/donhang/update_bill.php";
+            break;
         case 'updatebl':
             include "./controllers/binhluan/updatebl.php";
             break;
@@ -73,9 +73,9 @@ if (isset($_GET['act'])) {
         case 'bieudo':
             include "./controllers/thongke/bieudo.php";
             break;
-            case 'xoatk':
-                include "./controllers/taikhoan/xoakh.php";
-                break;
+        case 'xoatk':
+            include "./controllers/taikhoan/xoakh.php";
+            break;
         default:
             include './views/home/home.php';
             break;

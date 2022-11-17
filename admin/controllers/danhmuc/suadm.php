@@ -3,4 +3,4 @@
     $dm = loadone_danhmuc($_GET['id']);
 }
 include "./views/danhmuc/update.php";
-?>
+?> 

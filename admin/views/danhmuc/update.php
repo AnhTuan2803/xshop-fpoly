@@ -24,4 +24,4 @@
             if (isset($thongbao) && ($thongbao != "")) echo $thongbao;
             ?>
         </form>
-    </article>
+    </article> 
